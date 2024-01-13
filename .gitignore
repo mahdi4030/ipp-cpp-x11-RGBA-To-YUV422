@@ -1,4 +1,4 @@
-CMakeLists.txt.user
+#Cmake ignore
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
@@ -8,4 +8,14 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
-_deps
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_CPack_Packages/*
+
+# project specifics
+*.jpg
+*.png
+makeshot
+lib*
+.clang_complete
+*.deb
